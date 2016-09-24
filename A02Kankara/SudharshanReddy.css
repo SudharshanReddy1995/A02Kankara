@@ -1,0 +1,87 @@
+
+body{
+	background-image:url("http://www.template-joomspirit.com/template-joomla/template-107/images/background/light-blue-NR.jpg");
+	background-size:100%; 
+	/*padding: 20px;*/
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	/*background-color:rgb(0,94,126);
+	position:fixed;
+	top:0;
+	width:100%; */
+}
+li{
+	
+	float:left;
+	border-right:1px solid white;
+	border-left:1px solid white
+}  
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:10px 12px;
+	text-decoration:none; 
+}
+li a:hover{
+	background-color:rgb(189,44,59);
+}
+p{
+	text-align:center;
+	color:rgb(0,94,126);
+}
+
+embed{
+	display: block;
+    margin: auto;	
+}
+form{
+	margin:10px;
+}
+#div1{
+	margin:10px;
+	border:1px solid black;
+	float:left;
+	padding:10px;
+	border-radius: 10px;
+}
+#span1{
+	color:red;
+}
+#a1{
+	float:left;
+	padding: 10px;
+}
+
+/*#img1
+{
+	position:absolute;
+	top:50px;
+	right: 0px;
+}*/
+#img1
+{
+	display: block;
+    margin: auto;	
+}
+#sp1{
+	font-size: 20px;
+}
+#sp2{
+	color:green;
+	font-size: 30px;
+}
+#p1{
+	color:rgb(232,36,14);
+	font-size: 20px;
+}
+#div2{
+	color: red;
+}
+#alignlittleright{
+	padding: 10px;
+}

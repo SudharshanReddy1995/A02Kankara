@@ -1,0 +1,139 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Price Estimator</title>
+	<link rel="stylesheet" type="text/css" href="SudharshanReddy.css">
+</head>
+<body>
+<ul>
+	<li><a href="SudharshanReddy.html">Home</a></li>
+	<li><a href="Grocery_Bill_Estimator.html">Grocery Bill Estimator</a></li>
+	<li><a href="Contact.html">Contact</a></li>
+</ul>  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Price Estimator</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="SudharshanReddy.js"></script>
+	<link rel="stylesheet" type="text/css" href="SudharshanReddy.css">
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sudharshan Reddy Kankara</a>
+    </div>
+
+   <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="SudharshanReddy.html">Home</a></li>
+	<li><a href="Grocery_Bill_Estimator.html">Grocery Bill Estimator</a></li>
+	<li><a href="Contact.html">Contact</a></li>
+      </ul>
+      </div>
+  </div>
+</nav>
+
+<div class="row">
+<div class="col-md-12">
+<div><h1>Grocery Bill Estimator</h1></div></div></div>
+
+<div class="row">
+<div class="col-md-12">
+<h3><div>By using this tool, you can know the price of the product based on quantity or weight and the total grocery bill</h3></div>
+</div></div>
+
+
+<form id="f01">
+<div class="row">
+<div class="form-group">
+      <div class="col-md-3">
+	Product name:<br>
+	<input type="text" name="productname"><br><br>
+	</div>
+<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+</div>
+</div>
+
+<div class="row">
+<div class="form-group">
+      <div class="col-md-3">
+	Calculate by:<br>
+	<input type="radio" name="calculate by" value="weight" checked> Weight&nbsp;&nbsp;
+    <input type="radio" name="calculate by" value="quantity"> Quantity<br><br></div>
+<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+</div>
+</div>
+
+  <div class="row">
+<div class="form-group">
+      <div class="col-md-6" >  
+    Enter the quantity or the weight of the product as per the unit of measurement selected above:<br>
+	<input type="text" name="productquantity" id="qow"><br><br></div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+</div>
+</div>
+
+
+<p id="test1"></p></div>
+
+
+ <div class="row">
+<div class="form-group">
+      <div class="col-md-5" >  
+    Price of the product for the unit of measurement selected above:<br>
+	<input type="text" name="price" id="priceis"><br><br></div>
+	<div class="col-md-4"> </div>
+	<div class="col-md-3"></div>
+</div>
+</div>
+
+<p id="test2"></p>
+
+<div class="row">
+<div class="form-group">
+      <div class="col-md-3">  
+	<input type="button" onclick="Calculation();" value="submit to get the total price of product"><br><br></div>
+<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+</div>
+</div>
+
+
+<div class="row">
+<div class="form-group">
+      <div class="col-md-3">  
+	The total price of the product is:<br>
+	<input type="text" id="tpriceis" name="total price"><br><br></div>
+<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3"></div>
+</div>
+</div>
+
+
+
+
+</form>
+</body>
+</html>
